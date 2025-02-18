@@ -16,6 +16,7 @@ i3status
 xorg
 xinit
 fonts-noto-core
+fonts-noto-color-emoji
 EOF
 
 xargs -a packages.txt sudo apt-get install -y
