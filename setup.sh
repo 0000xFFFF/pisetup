@@ -11,6 +11,8 @@ exa
 i3-wm
 i3blocks
 i3status
+xorg
+xinit
 EOF
 
 xargs -a packages.txt sudo apt-get install -y
