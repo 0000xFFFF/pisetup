@@ -4,6 +4,7 @@ sudo apt update
 sudo apt upgrade -y
 
 cat << EOF >> packages.txt
+bat
 git
 make
 zoxide
@@ -32,6 +33,7 @@ cd ~
 git clone https://github.com/0000xFFFF/pisetup
 cp -rf pisetup/configs/i3config ~/.config/i3/config
 cp -rf pisetup/configs/.bashrc_start ~/.bashrc_start
+grep -qxF 'source .bashrc_start' ~/.bashrc || echo 'source .bashrc_start' >> ~/.bashrc
 
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
