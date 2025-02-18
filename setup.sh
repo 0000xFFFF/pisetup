@@ -15,8 +15,7 @@ i3blocks
 i3status
 xorg
 xinit
-noto-fonts
-noto-emoji
+fonts-noto-core
 EOF
 
 xargs -a packages.txt sudo apt-get install -y
