@@ -20,3 +20,9 @@ wget https://raw.githubusercontent.com/0000xFFFF/dotfiles/refs/heads/master/.bas
 git clone https://github.com/0000xFFFF/dotfiles
 cp -rf dotfiles/.vip ~/.vip
 cp -rf dotfiles/.vip ~/.config
+
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Inconsolata.zip
+unzip Inconsolata.zip
+fc-cache -fv
