@@ -8,6 +8,9 @@ make
 zoxide
 neovim
 exa
+i3-wm
+i3blocks
+i3status
 EOF
 
 xargs -a packages.txt sudo apt-get install -y
