@@ -28,6 +28,10 @@ git clone https://github.com/0000xFFFF/dotfiles
 cp -rf dotfiles/.vip ~/.vip
 cp -rf dotfiles/.vip ~/.config
 
+git clone https://github.com/0000xFFFF/pisetup
+cp -rf pisetup/configs/i3config ~/.config/i3/config
+cp -rf pisetup/configs/.bashrc_start ~/.bashrc_start
+
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Inconsolata.zip
