@@ -15,6 +15,8 @@ i3blocks
 i3status
 xorg
 xinit
+noto-fonts
+noto-emoji
 EOF
 
 xargs -a packages.txt sudo apt-get install -y
@@ -39,5 +41,5 @@ grep -qxF 'source .bashrc_start' ~/.bashrc || echo 'source .bashrc_start' >> ~/.
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Inconsolata.zip
-unzip Inconsolata.zip
+unzip Inconsolata.zip -d Inconsolata
 fc-cache -fv
