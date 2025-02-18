@@ -28,6 +28,7 @@ cd ~
 git clone https://github.com/0000xFFFF/dotfiles
 cp -rf dotfiles/.vip ~/.vip
 cp -rf dotfiles/.config ~/.config
+rm -rf ~/.config/nvim
 
 cd ~
 git clone https://github.com/0000xFFFF/pisetup
