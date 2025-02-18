@@ -6,6 +6,7 @@ cat << EOF >> packages.txt
 git
 make
 zoxide
+neovim
 exa
 EOF
 
