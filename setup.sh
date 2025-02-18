@@ -28,6 +28,7 @@ git clone https://github.com/0000xFFFF/dotfiles
 cp -rf dotfiles/.vip ~/.vip
 cp -rf dotfiles/.vip ~/.config
 
+cd ~
 git clone https://github.com/0000xFFFF/pisetup
 cp -rf pisetup/configs/i3config ~/.config/i3/config
 cp -rf pisetup/configs/.bashrc_start ~/.bashrc_start
