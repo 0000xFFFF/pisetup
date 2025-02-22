@@ -41,5 +41,7 @@ grep -qxF 'source .bashrc_start' ~/.bashrc || echo 'source .bashrc_start' >> ~/.
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Inconsolata.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Gohu.zip
 unzip Inconsolata.zip -d Inconsolata
+unzip Gohu.zip -d Gohu
 fc-cache -fv
