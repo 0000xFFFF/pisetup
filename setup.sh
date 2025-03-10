@@ -15,6 +15,7 @@ i3blocks
 i3status
 rofi
 xorg
+alacritty
 xinit
 fonts-noto-core
 fonts-noto-color-emoji
