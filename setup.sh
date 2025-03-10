@@ -13,6 +13,7 @@ exa
 i3-wm
 i3blocks
 i3status
+rofi
 xorg
 xinit
 fonts-noto-core
